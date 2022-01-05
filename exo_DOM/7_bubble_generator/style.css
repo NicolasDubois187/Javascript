@@ -1,0 +1,20 @@
+body {
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+span {
+    background: orange;
+    border-radius: 150px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    animation: anim 10s forwards;
+}
+@keyframes anim {
+    to {
+        top: -400px;
+        opacity: 1;
+        filter: hue-rotate(720deg);
+    }
+}
