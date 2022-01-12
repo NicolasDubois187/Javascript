@@ -1,0 +1,14 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease;
+}
+h2 {
+    background: black;
+    color: white;
+    padding: 30px;
+    border-radius: 5px;
+}

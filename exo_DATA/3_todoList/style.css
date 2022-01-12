@@ -1,0 +1,11 @@
+
+body {
+    text-align: center;
+}
+#list {
+    padding: 0;
+}
+
+.checked {
+    text-decoration: line-through;
+}

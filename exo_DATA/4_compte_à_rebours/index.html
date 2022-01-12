@@ -8,8 +8,15 @@
     <title>Document</title>
   </head>
   <body>
-    <div id="scoreContainer">0</div>
+    <h3>Entrez le nombre de minutes</h3>
 
-    <script src="./index.js"></script>
+    <form id="form">
+      <input type="number" min="1" max="99" id="choice" />
+      <input type="submit" value="GO" />
+    </form>
+
+    <div id="countdownDisplay"></div>
+
+    <script src="index.js"></script>
   </body>
 </html>
