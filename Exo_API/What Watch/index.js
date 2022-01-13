@@ -3,3 +3,5 @@
 // fd9098560f0f9e5e902003af5fa5565c
 
 // https://api.themoviedb.org/3/movie/550?api_key=fd9098560f0f9e5e902003af5fa5565c
+
+// https://api.themoviedb.org/3/search/movie?api_key=fd9098560f0f9e5e902003af5fa5565c&query=star&language=fr-FR
